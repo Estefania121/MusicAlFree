@@ -95,3 +95,8 @@ margin: 0;
    width: 100%;
    font-size: 38px;
 }
+
+h2{
+font-style: italic;
+color: inherit;
+}
