@@ -1,23 +1,97 @@
+/* index page styling */
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #d5d2e0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 nav {
   background-color: #6d639b;
 }
-body {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
- }
 
- main {
-   flex: 1 0 auto;
- }
+nav .brand-logo {
+  padding-left: 2%;
+}
 
-
-#colorNew{
+#colorNew {
 color: #6d639b;
 background-color: #6d639b;
+}
+
+.page-footer {
+  background-color: #6d639b;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 {
+  background-image: url('/images/alzheimers_final_flat.jpg');
+ background-repeat: no-repeat;
+   background-size: 100% auto;
+background-position: center;
+
+margin: 0;
+
+
+  height: 780px;
+   /*position: absolute;*/
+   top: 200px;
+   left: 100;
+   width: 100%;
+   font-size: 38px;
 }
