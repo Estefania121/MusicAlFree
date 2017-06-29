@@ -1,0 +1,46 @@
+body{
+background-color: darkgrey;
+font: 20px "League Gothic", , Arial, sans-serif;
+background-color: darkgrey;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+color: black;
+font-style: italic;
+}
+
+nav {
+  background-color: #6d639b;
+}
+h2{
+  color:  #6d639b;
+}
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+ nav {
+   background-color: #6d639b;
+ }
+ #colorNew {
+ color: #6d639b;
+ background-color: #6d639b;
+ }
+ .page-footer {
+   background-color: #6d639b;
+ }
+ h3{
+   color: black;
+ }
+h4{
+  color: #6d639btart ;
+}
+#cardcircle{
+  height: 200px;
+  width: 200px;
+}
