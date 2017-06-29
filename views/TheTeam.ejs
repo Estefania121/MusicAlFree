@@ -1,145 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    <link rel='stylesheet' href='/stylesheets/theteam.css' />
-    <meta charset="utf-8">
-    <title>The Team</title>
+  <head>
+      <meta charset="utf-8">
+      <title>Title</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel='stylesheet' href='/stylesheets/theteam.css' />
   </head>
   <body>
-    <!--navbar-->
+
+     <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="/">Home</a></li>
+      <li><a href="signup"> Music Program</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">MusicAlFree</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="/">Home</a></li>
+        <a  href="#!" class="brand-logo">MusicAlFree</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/signup"> Music Program</a></li>
+          <li><a href="/"> Home</a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
     </nav>
 
-    <img src="/images/20170629_080116.jpg" alt="" width="1000px" height="500px"  align="middle" style="margin:0px 170px">
-  <h2>The Team</h2>
+            <div class="bgimg-1">
+              <div class="caption">
+                <span class="border">The Team</span>
+              </div>
+            </div>
 
-  <div class="row">
-          <div class="col s4 m">
-            <div class="card">
-              <div class="card-image">
-                <img src="images/carlos.jpg"width="200px" height="200px">
-                <span class="card-title">Carlos Cortes</span>
-              </div>
-              <div class="card-content">
-                <p>Carlos Cortes</p>
-              </div>
-              <div class="card-action">
-                <a href="#"></a>
-              </div>
+            <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+              <h3 style="text-align:center;">Composed By</h3>
+              <p>The team is composed by The Presenter Nahuel Diaz (left), The Artist Carlos Cortes (center) and The Leader Estefania Maldonado (right). We came up with this idea because we wanted the alzheimer's community to have a better lifestyle and to help slow the process of memory loss. </p>
             </div>
-          </div>
 
-        <div class="col s4 m">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/estefania.jpg"width="200px" height="200px">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Estefania Maldonado</p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/nahuel.jpg"width="200px" height="200px">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Nahuel Diaz</p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-
-          <h5>We came up with this idea because we wanted the alzheimer's community to have a better lifestyle and to help slow the process of memory loss.</h5>
-            <h2>Sponsors</h2>
-        <div class="row">
-          <div class="col s4 m">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://inprende.com/wp-content/uploads/2016/03/i0.png"width="200px" height="200px">
-                <span class="card-title">INprende</span>
+            <div class="bgimg-2">
+              <div class="caption">
+                <span class="border">INprende</span>
               </div>
-              <div class="card-content">
+            </div>
+
+            <div style="position:relative;">
+              <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
                 <p> INprende seeks to empower the community by incorporating the entrepreneurial mindset as a way of life.</p>
               </div>
-              <div class="card-action">
-                <a href="#"></a>
+            </div>
+
+            <div class="bgimg-3">
+              <div class="caption">
+                <span class="border" >Hack PR</span>
               </div>
             </div>
-          </div>
-          <div class="col s4 m">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://pbs.twimg.com/profile_images/770992010744385536/ONmgSnxD.jpg"width="200px" height="220px">
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
+
+            <div style="position:relative;">
+              <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
                 <p>HackPR was built for entrepreneurs who are tired of the traditional PR model.</p>
               </div>
-              <div class="card-action">
-                <a href="#"></a>
+            </div>
+
+            <div class="bgimg-4">
+              <div class="caption">
+                <span class="border">Codetrotters</span>
               </div>
             </div>
-          </div>
-          <div class="col s4 m">
-            <div class="card">
-              <div class="card-image">
-                <img src="https://avatars3.githubusercontent.com/u/13034905?v=3&s=200"width="200px" height="200px">
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>Codetrotters is the first coding academy in Puerto Rico and the Caribbean, committed to training the next generation of coders and innovators. </p>
-              </div>
-              <div class="card-action">
-                <a href="#"></a>
+          <div style="position:relative;">
+              <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <p>Codetrotters is the first coding academy in Puerto Rico and the Caribbean, committed to training the next generation of coders and innovators.</p>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+    <footer class="page-footer" >
+      <div class="container">
+        <div class="row">
+           <div class="col l6 s12">
+             <h5 class="white-text">Contact Us</h5>
+               <p class="grey-text text-lighten-4">musicalfreecenme@gmail.com</p>
+               <p class="grey-text text-lighten-4"> 787-545-8745 </p>
+          <div class=social-media>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.google.com" class="fa fa-google"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/music_alfree/?=en" class="fa fa-instagram"></a>
+            <a href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a>
+
           </div>
-
-
-
-<h5>Thanks to our sponsors we will continue to help slow down the process and give them a better life style.</h5>
-<!--footer-->
-<footer class="page-footer">
-         <div class="container">
-           <div class="row">
-             <div class="col l6 s12">
-               <h5 class="white-text">For more information go back to our homepage.</h5>
-               <p class="grey-text text-lighten-4">Our services are free so make sure you call us if you are interested in an event.</p>
-             </div>
-             <div class="col l4 offset-l2 s12">
-               <h5 class="white-text"></h5>
-               <ul>
-                 <li><a class="grey-text text-lighten-3" href="#!"></a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!"></a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!"></a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!"></a></li>
-               </ul>
-             </div>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text"></h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Donate</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Apply</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Musicians</a></li>
+              </ul>
            </div>
-         </div>
-         <div class="footer-copyright">
-           <div class="container">
-           © 2017 MusicAlFree Foundation
-           <a class="grey-text text-lighten-4 right" href="#!"></a>
            </div>
-         </div>
-       </footer>
+           </div>
+           <div class="footer-copyright">
+               <div class="container">
+                 © 2017 MusicAlFree CENME
+                 <a class="grey-text text-lighten-4 right" href="#!">Adobe Flash Player</a>
+               </div>
+               </div>
+           </footer>
+  </body>
+</html>
